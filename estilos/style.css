@@ -66,10 +66,14 @@ h3{
 p{
     color: 0000009c;
 }
+
+
+
 .container{
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 5%;
+   
 }
 
 section.banner{
@@ -96,10 +100,3 @@ section > div > p{
     margin: 18px 0;
 }
 
-header .container .svg{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100vw;
-}
-   
