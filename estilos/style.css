@@ -54,17 +54,17 @@ nav ul a:hover::after{
 header > div > nav > a > img{
     width: 120px;
 }
+
 section, footer{
     padding: 0px 0;
 }
 
 h3{
     font-size: 50px;
-
 }
+
 p{
     color: 0000009c;
-
 }
 .container{
     max-width: 1400px;
@@ -76,19 +76,30 @@ section.banner{
     display: flex;
     justify-content: center;
 }
+
 section > div{
     margin: 150px;
     text-align: center;
     padding: 0 90px;
 }
+
 section > div > h1{
     font-size: 6em;
     color: white;
    
 }
+
 section > div > p{
     color: white;
     font-size: 1.3em;
     font-weight: lighter;
     margin: 18px 0;
 }
+
+header .container .svg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+}
+   
