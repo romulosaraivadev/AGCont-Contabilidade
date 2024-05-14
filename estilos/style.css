@@ -15,6 +15,8 @@ header{
     background-size: cover;
     padding-top: 30px;
     height: 100vh;
+    
+    position: relative;
 }
 
 nav{
@@ -79,10 +81,11 @@ p{
 section.banner{
     display: flex;
     justify-content: center;
+  
 }
 
 section > div{
-    margin: 150px;
+    margin: 90px 100px;
     text-align: center;
     padding: 0 90px;
 }
@@ -99,4 +102,11 @@ section > div > p{
     font-weight: lighter;
     margin: 18px 0;
 }
-
+.img-svg{
+    background-image: url(../imagens/svg.png);
+    width: 100%;
+    height: 103px;
+    position: absolute;
+    background-repeat: no-repeat;
+    bottom: 0;
+}
