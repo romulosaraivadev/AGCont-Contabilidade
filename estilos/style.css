@@ -15,8 +15,7 @@ header{
     background-size: cover;
     padding-top: 30px;
     height: 100vh;
-    
-    position: relative;
+    /* position: relative; */
 }
 
 nav{
