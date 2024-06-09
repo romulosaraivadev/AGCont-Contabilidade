@@ -1,3 +1,8 @@
+:root{
+    --cor-secundaria:rgb(1, 68, 73);
+    --branca:#ffffff;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -40,7 +45,7 @@ nav ul a{
 
 nav ul a::after{
     content: "";
-    background-color: rgb(1, 68, 73);
+    background-color: var(--cor-secundaria);
     height: 3px;
     width: 0;
     display: block;
@@ -65,10 +70,8 @@ h3{
 }
 
 p{
-    color: 0000009c;
+    color: var(--cor-secundaria);
 }
-
-
 
 .container{
     max-width: 1400px;
@@ -91,12 +94,12 @@ section > div{
 
 section > div > h1{
     font-size: 6em;
-    color: white;
+    color: var(--branca);
    
 }
 
 section > div > p{
-    color: white;
+    color: var(--branca);
     font-size: 1.3em;
     font-weight: lighter;
     margin: 18px 0;
